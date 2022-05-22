@@ -31,7 +31,7 @@ const Navbar = () => {
                 <Link to='/experience'>
                     experience
                 </Link>
-                <Link to='/'>
+                <Link to={{ pathname: 'https://kevin-wangg.github.io/'}} target='_blank'>
                     vroom vroom
                 </Link>
             </LinkContainer>
