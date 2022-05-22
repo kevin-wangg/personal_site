@@ -10,6 +10,9 @@ function App() {
     <Router>
       <Routes>
         <Route path='/experience' element={<Experience />}/>
+        {/* <Route path='/vroom' element={() => {
+          window.location.href = 'https://example.com/1234'; 
+        }}/> */}
         <Route path='/' element={<About />}/>
       </Routes>
     </Router>

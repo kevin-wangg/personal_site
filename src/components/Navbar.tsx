@@ -19,6 +19,12 @@ const Link = styled(NavLink)`
     text-decoration: none;
     color: black;
 `
+
+const ExternalLink = styled.a`
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+`
 const Navbar = () => {
 
     return (
@@ -31,9 +37,9 @@ const Navbar = () => {
                 <Link to='/experience'>
                     experience
                 </Link>
-                <Link to={{ pathname: 'https://kevin-wangg.github.io/'}} target='_blank'>
+                <ExternalLink href="https://kevin-wangg.github.io/" target="_blank">
                     vroom vroom
-                </Link>
+                </ExternalLink>
             </LinkContainer>
         </NavContainer>
     )
